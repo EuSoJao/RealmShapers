@@ -1,6 +1,26 @@
 {
-  "mod_elements": [],
-  "variable_elements": [],
+  "mod_elements": [
+    {
+      "name": "Mana0",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/realmshapers/client/gui/Mana0Overlay.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "manavariavel",
+      "type": "number",
+      "scope": "global",
+      "value": "10.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {}

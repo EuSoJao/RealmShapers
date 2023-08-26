@@ -12,6 +12,8 @@
 */
 package net.mcreator.realmshapers;
 
+import net.mcreator.realmshapers.init.RealmshapersModOverlays;
+
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
@@ -20,6 +22,8 @@ import net.fabricmc.api.ClientModInitializer;
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		RealmshapersModOverlays.load();
 
 	}
 }
